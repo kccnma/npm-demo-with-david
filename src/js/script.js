@@ -18,3 +18,16 @@ parallax.setup({
 
 // 3. Init
 parallax.init();
+
+
+// 1. Create new scroll
+const scroll = new Scroll();
+
+// 2. Setup parallax
+const scrollElements = document.querySelectorAll('.scroll-element');
+parallax.setup({
+    selector: scrollElements //these elements will be selected
+});
+
+// 3. Init
+scroll.init();

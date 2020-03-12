@@ -1,4 +1,4 @@
-import {Parallax, Scroll, DarkMode, EventGroup} from 'giftbag'
+import {Parallax, Scroll} from 'giftbag'
 
 console.log(Parallax)
 
@@ -20,14 +20,10 @@ parallax.setup({
 parallax.init();
 
 
-// 1. Create new scroll
+// Scroll based animations
 const scroll = new Scroll();
-
-// 2. Setup parallax
 const scrollElements = document.querySelectorAll('.scroll-element');
-parallax.setup({
-    selector: scrollElements //these elements will be selected
+scroll.setup({
+    selector: scrollElements
 });
-
-// 3. Init
-scroll.init();
+scroll.init()

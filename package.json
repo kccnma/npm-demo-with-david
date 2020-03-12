@@ -1,0 +1,15 @@
+{
+  "name": "npm-demo-thing",
+  "version": "1.0.0",
+  "description": "in-class demi with david",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "john doe",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
